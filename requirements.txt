@@ -1,0 +1,8 @@
+geemap
+pandas
+gcloud
+earthengine-api
+setuptools
+geedim
+geopandas
+shape
