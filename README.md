@@ -1,6 +1,7 @@
 ### Final work course Introduction to Python 
 # **Project description**
-###Introduction to python 
+
+Introduction to python 
 
 Emmanuel Jesús Céspedes Rivera
 
