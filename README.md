@@ -1,5 +1,7 @@
 # **Project description**
-###Introduction to python 
+University of Lisbon
+Instituto Superior de Agronomia (ISA)
+Introduction to python 
 
 This project aims to provide a tool for customized and fast downloading of satellite images, eliminating waiting times. This aspect is especially crucial for images corrected at the top of the atmosphere (surface reflectance).
 
