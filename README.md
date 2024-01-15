@@ -45,3 +45,5 @@ The tool allows users to clip downloaded images based on a specified region. Use
 For further details on the Sentinel-1 data processing level, refer to the [Google Earth Engine documentation](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD).
 
 *By Emmanuel Jesús Céspedes Rivera*
+
+theme: jekyll-theme-minimal
