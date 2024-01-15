@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Satellite Image Download Tool
+description: This project introduces a Python tool for the personalized and efficient download of satellite images, minimizing waiting times. The tool utilizes Google Earth Engine (GEE) and the Geemap library for streamlined access to a vast repository of satellite data.
