@@ -46,4 +46,3 @@ For further details on the Sentinel-1 data processing level, refer to the [Googl
 
 *By Emmanuel Jesús Céspedes Rivera*
 
-theme: jekyll-theme-minimal
