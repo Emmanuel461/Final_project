@@ -1,4 +1,4 @@
-# **Project description**
+# **Project description (https://emmanuel461.github.io/Final_project/)**
 
 **University of Lisbon**
 
@@ -36,9 +36,12 @@ The `DateFilter` class is designed to handle the filtering of image collections 
 The tool allows users to clip downloaded images based on a specified region. Users have the option to define a region using a GeoJSON file, providing flexibility in tailoring the output to specific geographic areas.
 
 ## Usage Instructions
+In this specific scenario, it becomes essential to have multiple inputs to efficiently filter satellite images. To address this type of use case, it is essential to have accurate information about the area of interest, the relevant dates, the specific sensor required and, crucially, the desired level of processing. To avoid high data downloads, the option to crop the satellite image, focusing on the region of interest provided, is offered. 
+
+
 
 1. **Run the Pre-execution Code:** Ensure that the pre-execution code is run before using the tool.
-2. **Input Dates and Point:** Provide start and end dates, and optionally a point of interest.
+2. **Input Dates and Point:** Provide start and end dates, and point of interest. (In case of choosing to crop the image using the GeoJson file available in this GitHub repository, it is recommended to use the coordinates X: -84.45 and Y: 9.34).
 3. **Select Sensor and Preprocessing:** Choose a sensor and the desired preprocessing type (TOA, BOA, or SAR).
 4. **Clip Option:** Decide whether to clip the image based on a region. Users can provide a GeoJSON file for custom regions.
 5. **Download Images:** Specify a local folder for downloading the images, and the tool will handle the download process.
