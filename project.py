@@ -46,7 +46,7 @@ class DateFilter:
                     collection = ee.ImageCollection('COPERNICUS/S2_SR')
                     scale = 10
                 else:
-                    raise ValueError('Insert a valid sensor.')
+                    raise ValueError('Insert a valid sensor(no add -#@)')
                 return collection, scale
             except ValueError as ve:
                 print(f"Error: {ve}")
