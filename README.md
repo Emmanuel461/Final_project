@@ -1,4 +1,4 @@
-# **Project description **
+# **Project description**
 
 **University of Lisbon**
 
