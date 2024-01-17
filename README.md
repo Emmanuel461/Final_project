@@ -38,7 +38,7 @@ The tool allows users to clip downloaded images based on a specified region. Use
 ## Usage Instructions
 In this specific scenario, it becomes essential to have multiple inputs to efficiently filter satellite images. To address this type of use case, it is essential to have accurate information about the area of interest, the relevant dates, the specific sensor required and, crucially, the desired level of processing. To avoid high data downloads, the option to crop the satellite image, focusing on the region of interest provided, is offered. 
 
-
+This aspect was meticulously taken into account, given that the code necessitates multiple inputs. Nonetheless, as indicated towards the end, such a requirement was deemed necessary in light of the application's inherent nature.
 
 1. **Run the Pre-execution Code:** Ensure that the pre-execution code is run before using the tool.
 (You need a GEE account for this section, if you don't have, can register here: [Register in GEE](https://code.earthengine.google.com/register)
@@ -50,6 +50,17 @@ In this specific scenario, it becomes essential to have multiple inputs to effic
 **Note:** The tool supports sensors like Landsat 8/9, Sentinel 1 (SAR), and Sentinel 2, offering flexibility and convenience for satellite image retrieval.
 
 For further details on the Sentinel-1 data processing level, refer to the [Google Earth Engine documentation](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD).
+
+The repository comprises the following components:
+
+1. A pre-execution code.
+2. A file named `requirements.txt`, which contains the names of the libraries required to run the project (use `pip install -r requirements.txt` in your terminal to install the necessary libraries).
+3. A GeoJSON file, available for use in the code execution as an example. This file is spatially located in Perez Zeledon, San Jose, Costa Rica.
+4. The `README.md` file, containing current information about the project.
+5. A `_config.yml` file, holding the configuration of the web page ([link](https://emmanuel461.github.io/Final_project/)).
+6. The `project.py` file, containing the code for downloading satellite images.
+7. The `test_project.py` file, designed for performing tests on some of the functions used in `project.py`.
+
 
 *By Emmanuel Jesús Céspedes Rivera*
 
