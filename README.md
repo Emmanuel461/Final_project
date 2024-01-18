@@ -41,7 +41,7 @@ In this specific scenario, it becomes essential to have multiple inputs to effic
 This aspect was meticulously taken into account, given that the code necessitates multiple inputs. Nonetheless, as indicated towards the end, such a requirement was deemed necessary in light of the application's inherent nature.
 
 1. **Run the Pre-execution Code:** Ensure that the pre-execution code is run before using the tool.
-(You need a GEE account for this section, if you don't have, can register here: [Register in GEE](https://code.earthengine.google.com/register)
+(You need a GEE account for this section, if you don't have, can register here: [Register in GEE](https://code.earthengine.google.com/register))
 2. **Input Dates and Point:** Provide start and end dates, and point of interest. (If you decide to crop the image using the provided GeoJSON file from this GitHub repository, it is recommended to use the coordinates X: -84.45 and Y: 9.34.).
 3. **Select Sensor and Preprocessing:** Choose a sensor and the desired preprocessing type (TOA, BOA, or SAR).
 4. **Clip Option:** Decide whether to clip the image based on a region. Users can provide a GeoJSON file for custom regions.
