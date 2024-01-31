@@ -23,8 +23,8 @@ class DateFilter:
     def get_sensor_info(self):
         while True:
             try:
-                # Obtain sensor information (collection and scale) based on user's choice
-                sensor_name = input('Write the name of the Sensor (Landsat 8/9, Sentinel 1(SAR), or 2): ').strip().upper().replace(" ", "")
+                # Obtain sensor information (collection and scale) based on user's choice # *** Replace the name by number ***
+                sensor_name = input('Write the name of the Sensor (Landsat 8/9 (1), Sentinel 1(SAR) (2), or 2 (3)): ').strip().upper().replace(" ", "")
                 preprocess = self.surface_reflectance()
                 landsat_toa_collections = {'LANDSAT8': 'LANDSAT/LC08/C02/T1_TOA', 'LANDSAT9': 'LANDSAT/LC09/C02/T1_TOA'}
                 landsat_boa_collections = {'LANDSAT8': 'LANDSAT/LC08/C02/T1_L2', 'LANDSAT9': 'LANDSAT/LC09/C02/T1_L2'}
@@ -38,7 +38,7 @@ class DateFilter:
                     scale = 30
                 elif preprocess == 'SAR' and sensor_name == 'SENTINEL1':
                     collection = ee.ImageCollection('COPERNICUS/S1_GRD')
-                    scale = 10
+                    scale = 10 
                 elif preprocess == 'TOA' and sensor_name == 'SENTINEL2':
                     collection = ee.ImageCollection('COPERNICUS/S2')
                     scale = 10
